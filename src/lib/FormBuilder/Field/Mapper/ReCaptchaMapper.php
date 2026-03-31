@@ -7,7 +7,7 @@ namespace Novactive\Bundle\IbexaRecaptchaField\FormBuilder\Field\Mapper;
 use Ibexa\FormBuilder\FieldType\Field\Mapper\GenericFieldMapper;
 use EWZ\Bundle\RecaptchaBundle\Validator\Constraints as Recaptcha;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
-use EzSystems\EzPlatformFormBuilder\FieldType\Model\Field;
+use Ibexa\Contracts\FormBuilder\FieldType\Model\Field;
 
 final class ReCaptchaMapper extends GenericFieldMapper
 {
